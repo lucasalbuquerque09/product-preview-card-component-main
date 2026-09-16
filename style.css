@@ -19,6 +19,7 @@
     --montserrat: "Montserrat", sans-serif;
     --fraunces: "Fraunces", serif;
 }
+
 /* base styles */
 body {
     width: 100vw;
@@ -115,6 +116,7 @@ body {
                 gap: 10px;
                 cursor: pointer;
                 transition: all .5s ease-out;
+                -webkit-tap-highlight-color: transparent;
 
                 &:hover {
                     background-color: var(--green700);
